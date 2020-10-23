@@ -24,7 +24,11 @@
 
   <header id="header">
     <nav id="navbar">
-      <picture id="navbar-picture"></picture>
+      <picture id="navbar-picture">
+        <source media="(max-width:767px)" sizes="1px" srcset="https://i.ibb.co/W0w7vfM/blank-1px.png 1w">
+        <source media="(min-width:768px)" sizes="300px" srcset="https://i.ibb.co/VHyDs0r/Foto.jpg">
+          <img src="https://i.ibb.co/VHyDs0r/Foto.jpg" alt="Imagen de Perfil">
+      </picture>
       <ul id="navbar-ul">
         <li id="navbar-li"><a>Sobre mi</a></li>
         <li id="navbar-li">Stack</li>
@@ -46,7 +50,11 @@
       <h2>Sobre mi</h2>
       <div class="container-about">
         <div class="picture-div">
-          <picture></picture>
+          <picture id="navbar-picture">
+            <source media="(max-width:767px)" sizes="1px" srcset="https://i.ibb.co/W0w7vfM/blank-1px.png 1w">
+            <source media="(min-width:768px)" sizes="300px" srcset="https://i.ibb.co/VHyDs0r/Foto.jpg">
+              <img src="https://i.ibb.co/VHyDs0r/Foto.jpg" alt="Imagen de Perfil">
+          </picture>
         </div>
         <div class="text-div">
           <h3>Texto título</h3>
@@ -56,21 +64,22 @@
     </section>
 
     <section id="stack">
+      <h2>Stack</h2>
       <div class="container-stack">
         <div class="cont-html">
-          <picture></picture>
+          <img id="logo-html" src="https://i.ibb.co/vj52xpV/html.png" alt="Logo HTML">
         </div>
         <div class="cont-css">
-          <picture></picture>
+          <img id="logo-css" src="https://i.ibb.co/Dfw8BWN/CSS.png" alt="Logo CSS">
         </div>
         <div class="cont-js">
-          <picture></picture>
+          <img id="logo-js" src="https://i.ibb.co/bPfX92F/Javascript.png" alt="Logo JS">
         </div>
       </div>
     </section>
 
     <section id="projects">
-      <h2>Portfolio</h2>
+      <h2>Estos son algunos de mis proyectos.</h2>
       <div class="container-projects">
         <div class="cont-project-1">
           <picture id="bg-picture-1"></picture>
