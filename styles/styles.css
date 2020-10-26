@@ -85,7 +85,7 @@ html {
 #about {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -94,8 +94,97 @@ html {
   font-weight: 600;
   padding-top: 60px;
   padding-left: 20px;
-
 }
+
+.picture-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.picture-div > img {
+  width: 40vw;
+  height: auto;
+  border: 1px solid #000000;
+  border-radius: 100%;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.text-div > p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 40px;
+}
+
+hr {
+  border: 0.2px solid #8888885d;
+  width: 80vw;
+  margin-top: 30px;
+}
+
+#about > ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0 40px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3;
+}
+
+#about > ul > li:nth-child(2) {
+  color: #dc3545;
+}
+
+strong {
+  font-weight: 500;
+  color: #000000;
+}
+
+
+
+/* STACK */
+#stack {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+
+#stack > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.div-pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.div-pictures > img {
+  width: 50vw;
+  height: auto;
+  margin: 20px 0;
+}
+
+
+
+
+
 
 
 
