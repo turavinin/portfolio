@@ -3,14 +3,12 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 3000px;
   margin: 0px;
 }
 
 /* MOBILE FIRST */
-
-
 
 /* NAVBAR */
 #navbar {
@@ -27,7 +25,6 @@ html {
   display: flex;
   justify-content: space-around;
   width: 90vw;
-
 }
 
 #navbar-ul > li > a {
@@ -36,8 +33,6 @@ html {
   font-size: 1.5rem;
   font-weight: 500;
 }
-
-
 
 /* WELCOME SECTION */
 #welcome-section {
@@ -79,7 +74,6 @@ html {
   line-height: 1.5;
   color: #ebebeb;
 }
-
 
 /* ABOUT */
 #about {
@@ -150,8 +144,6 @@ strong {
   color: #000000;
 }
 
-
-
 /* STACK */
 #stack {
   display: flex;
@@ -181,52 +173,66 @@ strong {
   margin: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* NAVBAR 
-
-#header {
+/* PORTFOLIO */
+#projects {
   display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+#projects > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+#projects > p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2;
+  padding-left: 20px;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  width: 100%;
-  height: 80px;
-
-  background-color: #222222;
 }
 
-#navbar-ul {
-  color: #dc3545;
+.cont-project-1 {
+  display: flex;
+  margin-top: 50px;
+  width: 90vw;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #dc3545;
+  border-radius: 1%;
+
+  background-color: #292929;
+  background-image: url(https://i.ibb.co/XyVcPqt/Screenshot-2020-10-26-Product-Landing-Page.png);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
-#navbar-ul > li {
-  display: inline-block;
-  padding: 0 20px;
-  font-size: 1.7rem;
-  font-weight: 500;
+.cont-project-1 > ul {
+  color: #ffffff;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
-#main {
-  padding-top: 80px;
-}
+/* MANDAR A LA DERECHA COMO BRITANY */
 
+.cont-project-1 > ul > li:nth-child(1) {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 150px;
+  letter-spacing: 5px;
+}
