@@ -86,12 +86,13 @@ body {
   flex-direction: column;
   background-color: #ffffff;
   height: 100vh;
+  padding-top: 100px;
 }
 
 #about > h2 {
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 60px;
+  padding-top: 10px;
   padding-left: 20px;
 }
 
@@ -155,12 +156,13 @@ strong {
   flex-direction: column;
   background-color: #f7f7f7;
   height: 100vh;
+  padding-top: 100px;
 }
 
 #stack > h2 {
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 60px;
+  padding-top: 10px;
   padding-left: 20px;
 }
 
@@ -184,12 +186,13 @@ strong {
   flex-direction: column;
   background-color: #ffffff;
   min-height: 100vh;
+  padding-top: 100px;
 }
 
 #projects > h2 {
   font-size: 3rem;
   font-weight: 600;
-  padding-top: 60px;
+  padding-top: 10px;
   padding-left: 20px;
 }
 
@@ -488,11 +491,12 @@ strong {
 .ft-main {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 150px;
   background-color: #222222;
 }
 
 .ft-main-item {
+  margin-top: 20px;
   padding: 10px;
   min-width: 200px;
   justify-content: center;
@@ -507,4 +511,43 @@ strong {
 
 .ft-main-item > ul > li > i {
   color: #dc3545;
+}
+
+/* FOOTER SOCIAL */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+  background-color: #222222;
+}
+
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #777;
+  padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+  margin: 1rem 3rem;
+}
+
+.ft-social-list li > a > i {
+  text-decoration: none;
+  color: #dadada;
+}
+
+/* FOOTER LEGAL */
+.ft-legal {
+  padding: 0 1.875rem 1.25rem;
+  background-color: #222222;
+}
+
+.ft-legal-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 3.5rem;
+}
+
+.ft-legal-list > li > a {
+  text-decoration: none;
+  color: #f7f7f7;
 }
