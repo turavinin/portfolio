@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 10vh;
+  height: 10vh;
   min-width: 100vw;
   position: fixed;
   background-color: #222222;
@@ -43,42 +43,41 @@ body {
 #welcome-section {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  height: 90vh;
-  padding-top: 30vh;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
   background-color: #222222;
 }
 
-#welcome-section > .welcome-p-1 {
+.welcome-container > .welcome-p-1 {
   font-size: 1.7rem;
   font-weight: 400;
-  line-height: 4;
-  padding: 0 35px;
+  padding: 0px 30px 0px 35px;
   color: #dc3545;
 }
-
-#welcome-section h1 {
+.welcome-container > h1 {
   font-size: 3.5rem;
   font-weight: 700;
+  padding: 10px 30px 0px 30px;
   color: #ebebeb;
-  padding: 0 30px;
 }
 
-#welcome-section h2 {
+.welcome-container > h2 {
   font-size: 3rem;
   font-weight: 300;
   line-height: 1;
+  padding: 0px 30px 0px 30px;
   color: #ebebebc2;
-  padding: 5px 30px;
 }
 
-#welcome-section > .welcome-p-2 {
+.welcome-container > .welcome-p-2 {
   display: none;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
   color: #ebebeb;
 }
+
 
 /* ABOUT */
 #about {
@@ -557,12 +556,18 @@ strong {
   color: #f7f7f7;
 }
 
+#footer-hr {
+  display: none;
+}
+
+
+
 /* DESKTOP STYLES */
 @media only screen and (min-width: 960px) {
   /* NAVBAR */
   #navbar {
     min-width: 0;
-    width: 250px;
+    width: 15vw;
     height: 100vh;
     top: 0;
     left: 0;
@@ -582,25 +587,49 @@ strong {
 
   /* WELCOME SECTION */
   #welcome-section {
+    margin-left: 15vw;
+  }
+
+  .welcome-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding-top: 0;
-    margin-left: 13vw;
     justify-content: center;
-    padding-left: 610px;
-    background-color: #222222;
+    align-items: flex-start;
   }
 
-  #welcome-section > .welcome-p-1 {
-    line-height: 1;
-    f
+  .welcome-container > .welcome-p-1 {
+    font-size: 2rem;
   }
 
-  #welcome-section h1 {
-    padding: 10px 30px 0 30px;
-    font-size: 4rem ;
+  .welcome-container > h1 {
+    font-size: 4rem;
+    padding-top: 15px;
   }
+
+  .welcome-container > h2 {
+    font-size: 3rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* ABOUT */
   .img-profile-1 {
@@ -614,31 +643,30 @@ strong {
   #about {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #ffffff;
     height: 80vh;
-    padding-left: 40vh;
-    padding-top: 100px;
-    margin-bottom: 50px;
+    padding-left: 15vw;
+    align-items:
   }
 
   #about > h2 {
     font-size: 4rem;
     font-weight: 800;
-    padding-top: 10px;
-    padding-left: 0;
+    padding-left: 250px;
+    padding-bottom: 50px;
   }
 
   .sub-container {
     display: flex;
-    align-content: center;
-    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 250px;
   }
 
   .picture-div {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 0;
   }
 
   .picture-div > img {
@@ -652,24 +680,43 @@ strong {
 
   .text-div {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 100px;
   }
 
   .text-div > p {
-    padding: 50px 200px 0 40px;
+    padding-right: 400px;
   }
 
   #welcome-hr {
-    width: 10px;
+    width: 5px;
     padding-right: 100px;
-    padding-left: 700px;
-    margin-right: 200px;
+    padding-left: 425px;
+    margin-right: 365px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
   /* STACK */
   #stack {
-    padding-left: 251px;
+    padding-left: 15vw;
     height: 60vh;
   }
 
@@ -704,7 +751,7 @@ strong {
     min-height: 100vh;
     padding-top: 100px;
 
-    padding-left: 251px;
+    padding-left: 15vw;
   }
 
   #projects > h2 {
@@ -827,13 +874,17 @@ strong {
   /* FOOTER */
 
   footer {
-    padding-left: 251px;
+    padding-left: 15vw;
   }
 
 
   /* FOOTER SOCIAL */
   .ft-social-list {
     border-top: none; 
+  }
+
+  #footer-hr {
+    display: block;
   }
 
 
