@@ -26,6 +26,11 @@ body {
   background-color: #222222;
 }
 
+.vl-top,
+.vl-bottom {
+  display: none;
+}
+
 #navbar-ul {
   display: flex;
   justify-content: space-around;
@@ -127,6 +132,18 @@ body {
   line-height: 1.5;
   text-align: justify;
   padding: 0 40px;
+}
+
+.text-div > form > input {
+  display: inline;
+  margin: 20px 0 0 40px;
+  padding: 12px 22px;
+  border-radius: 5px 20px 5px;
+  border: 1px solid #f2f2f2;
+  background-color: #dc3545;
+  color: #f2f2f2f2;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 hr {
@@ -562,16 +579,61 @@ strong {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* DESKTOP STYLES */
 @media only screen and (min-width: 960px) {
   /* NAVBAR */
   #navbar {
     min-width: 0;
-    width: 15vw;
+    width: 11vw;
     height: 100vh;
     top: 0;
     left: 0;
     border-right: 1px solid #dc354646;
+  }
+
+  .vl-top {
+    display: block;
+    border-left: 1px solid #4e4e4e46;
+    height: 37vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .vl-bottom {
+    display: block;
+    border-left: 1px solid #4e4e4e46;
+    height: 37vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 0;
   }
 
   #navbar-ul {
@@ -585,9 +647,10 @@ strong {
     padding: 20px 0;
   }
 
+
   /* WELCOME SECTION */
   #welcome-section {
-    margin-left: 15vw;
+    margin-left: 11vw;
   }
 
   .welcome-container {
@@ -609,25 +672,6 @@ strong {
   .welcome-container > h2 {
     font-size: 3rem;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -672,7 +716,7 @@ strong {
   .picture-div > img {
     width: 20vw;
     height: auto;
-    border: 1px solid #000000;
+    border: 1px solid #6d292f;
     border-radius: 0%;
     padding: 2px;
     background-color: #ffffff;
@@ -686,6 +730,11 @@ strong {
 
   .text-div > p {
     padding-right: 400px;
+  }
+
+  .text-div > form > input {
+    display: inline;
+    margin: 30px 0 0 40px;
   }
 
   #welcome-hr {
