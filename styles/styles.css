@@ -616,7 +616,7 @@ strong {
     height: 100vh;
     top: 0;
     left: 0;
-    border-right: 1px solid #dc354646;
+    border-right: 1px solid #222222;
   }
 
   .vl-top {
@@ -649,6 +649,11 @@ strong {
   #navbar-ul > li {
     padding: 20px 0;
   }
+
+
+#navbar-ul > li > a:hover {
+  color: #ffffff
+}
 
   /* MAIN */
 
@@ -792,21 +797,6 @@ strong {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* PORTFOLIO SECTION */
   #projects {
     display: flex;
@@ -852,6 +842,47 @@ strong {
     font-size: 1.5rem;
   }
 
+  .cont-project-1 {
+    background-color:  #1a1a1a;
+    background-image: url(https://i.ibb.co/xCcYCV1/producto-png.png);
+    background-blend-mode: multiply;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+.cont-project-2 {
+    background-color:  #1a1a1a;
+    background-image: url(https://i.ibb.co/Zz7cZFc/survey-img.png);
+    background-blend-mode: multiply;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+
+.cont-project-3 {
+    background-color:  #1a1a1a;
+    background-image: url(https://i.ibb.co/0r4nWQG/Tributo-img.png);
+    background-blend-mode: multiply;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+.cont-project-4 {
+    background-color:  #1a1a1a;
+    background-image: url(https://i.ibb.co/BCVj3zX/JS-img.png);
+    background-blend-mode: multiply;
+    background-attachment: inherit;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 0px;
+}
+
 .cont-project-1 > ul > li:nth-child(3) {
   padding: 0;
 }
@@ -895,209 +926,30 @@ i:hover {
   color: #dc3545;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* PORTFOLIO 
-  #projects {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    min-height: 100vh;
-    padding-top: 100px;
-
-    padding-left: 15vw;
-  }
-
-  #projects > h2 {
-    font-size: 4rem;
-    font-weight: 800;
-    margin-left: 150px;
-  }
-
-  #projects > p {
-    margin-left: 150px;
-  }
-
-  /* PROJECTS CONTAINER 
-  .container-projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: flex-start;
-    margin: 100px;
-    margin-left: 220px;
-  }
-
-  /* PROJECT 1 
-  .cont-project-1 {
-    display: flex;
-    margin-top: 50px;
-    width: 20vw;
-    height: 400px;
-    border: 2px solid #dc3545;
-    border-radius: 1%;
-    justify-content: flex-end;
-    text-align: right;
-    margin: 0 100px;
-
-    background-color: #202020;
-    background-image: url(https://i.ibb.co/XyVcPqt/Screenshot-2020-10-26-Product-Landing-Page.png);
-    background-blend-mode: multiply;
-    background-attachment: inherit;
-    background-size: cover;
-    background-position: center;
-  }
-
-.cont-project-1 > ul > li:nth-child(4) {
-  margin-top: 60px;
+/* FOOTER */
+footer {
+  margin-left: 11vw;
 }
 
-  /* PROJECT 2 
-  .cont-project-2 {
-    display: flex;
-    margin-top: 50px;
-    width: 20vw;
-    height: 400px;
-    border: 2px solid #dc3545;
-    border-radius: 1%;
-    justify-content: flex-start;
-    text-align: left;
-    margin: 0 100px;
+.ft-main {
+  margin-top: 0;
+}
 
-    background-color: #292929;
-    background-image: url(https://i.ibb.co/fY08bgh/Screenshot-2020-10-26-Survey-Form.png);
-    background-blend-mode: multiply;
-    background-attachment: inherit;
-    background-size: 1000px 800px;
-    background-position-x: center;
-  }
+.ft-social-list {
+  border-top: none;
+  padding-top: 20px;
+  
+}
 
-  .cont-project-2 > ul > li:nth-child(4) {
-    margin-top: 70px;
-    padding: 0 10px 10px 0;
-    font-size: 1.4rem;
-    font-weight: 300;
-    line-height: 1.5;
-  }
+.ft-social-list li > a > i:hover{
+  text-decoration: none;
+  color: #dc3545;
+}
 
+i:hover {
+  color: #dc3545;
+}
 
-  /* PROJECT 3
-  .cont-project-3 {
-    display: flex;
-    margin-top: 50px;
-    width: 20vw;
-    height: 400px;
-    border: 2px solid #dc3545;
-    border-radius: 1%;
-    justify-content: flex-end;
-    text-align: right;
-    margin: 0 100px;
-    margin-top: 100px;
-
-    background-color:  #1a1a1a;
-    background-image: url(https://i.ibb.co/C1PbtGw/pag-tributo.png);
-    background-blend-mode: multiply;
-    background-attachment: inherit;
-    background-size: cover;
-    background-position: center;
-    background-position-y: 0px;
-  }
-
-  /* PROJECT 4 
-  .cont-project-4 {
-    display: flex;
-    margin-top: 50px;
-    width: 20vw;
-    height: 400px;
-    border: 2px solid #dc3545;
-    border-radius: 1%;
-    justify-content: flex-start;
-    text-align: left;
-    margin: 0 100px;
-    margin-top: 100px;
-
-    background-color: #1a1a1a;
-    background-image: url(https://i.ibb.co/GMq18V8/pag-documentacion.png);
-    background-blend-mode: multiply;
-    background-attachment: inherit;
-    background-size: 1000px 800px;
-    background-position: center bottom;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* FOOTER 
-
-  footer {
-    padding-left: 15vw;
-  }
-
-
-  /* FOOTER SOCIAL 
-  .ft-social-list {
-    border-top: none; 
-  }
-
-  #footer-hr {
-    display: block;
-  }
-
-
-
-  /* HOVERS 
-
-  #navbar-ul > li > a:hover {
-    color: #ffffff
-  }
-
-  .ft-social-list li > a > i:hover{
-    text-decoration: none;
-    color: #dc3545;
-  }
-
-  i:hover {
-    color: #dc3545;
-  }
-
-  .ft-legal-list > li > a:hover {
-    color: #dc3545;
-  }
+.ft-legal-list > li > a:hover {
+  color: #dc3545;
+}
