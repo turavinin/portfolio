@@ -181,6 +181,13 @@ strong {
   padding-left: 20px;
 }
 
+.stack-title {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 .div-pictures {
   display: flex;
   flex-direction: column;
@@ -678,6 +685,7 @@ strong {
     justify-content: center;
     align-items: center;
     padding: 20px 50px 20px 50px;
+    margin: 0;
     height: 80vh;
   }
 
@@ -685,9 +693,9 @@ strong {
   .about-mother-container {
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    width: fit-content;
     justify-content: center;
+    height: 80vh;
+    width: 1000px;
   }
 
   .about-title {
@@ -697,8 +705,6 @@ strong {
     margin: 0;
     padding-bottom: 80px;
   }
-
-
 
   .about-container {
     display: flex;
@@ -754,77 +760,63 @@ strong {
 
 
 
-
-
-
-
-  /* ABOUT 
-  .img-profile-1 {
-    display: none;
-  }
-
-  .img-profile-2 {
-    display: block !important;
-  }
-
-  #about {
-    display: flex;
-    flex-direction: column;
-    height: 80vh;
-    margin-left: 11vw;
-
-  }
-
-  #about > h2 {
-    font-size: 4rem;
-    font-weight: 800;
-    padding-left: 250px;
-    padding-bottom: 50px;
-  }
-
-  .sub-container {
+  /* STACK */
+  #stack {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 250px;
+    padding: 20px 50px 20px 50px;
+    height: 50vh;
   }
 
-  .picture-div {
+  .stack-mother-container {
     display: flex;
-    justify-content: center;
-    margin-top: 0;
-  }
-
-  .picture-div > img {
-    width: 20vw;
-    height: auto;
-    border: 1px solid #6d292f;
-    border-radius: 0%;
-    padding: 2px;
-    background-color: #ffffff;
-  }
-
-  .text-div {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    width: 1000px;
   }
 
-  .text-div > p {
-    padding-right: 400px;
+  .stack-title {
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    
   }
 
-  
-
-  .text-div > form > input {
-    display: inline;
-    margin: 30px 0 0 40px;
+  .picture-container {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
   }
 
-  #welcome-hr {
-    width: 600px;
-    margin-right: 20vw;
+  .div-pictures {
+    display: flex;
+    flex-direction: row;
+  } 
+
+  .div-pictures > img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
