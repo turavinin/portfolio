@@ -88,7 +88,7 @@ body {
 #about {
   display: flex;
   flex-direction: column;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   height: auto;
   padding-top: 100px;
   margin-bottom: 50px;
@@ -169,7 +169,7 @@ strong {
 #stack {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   height: auto;
   padding-top: 100px;
 }
@@ -206,7 +206,7 @@ strong {
 #projects {
   display: flex;
   flex-direction: column;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   min-height: 100vh;
   padding-top: 100px;
 }
@@ -746,7 +746,7 @@ strong {
   }
 
   .picture-div > img {
-    width: 350px;
+    width: 280px;
     height: auto;
     border: 1px solid #6d292f;
     border-radius: 0%;
@@ -928,6 +928,7 @@ i:hover {
 /* FOOTER */
 footer {
   margin-left: 11vw;
+  margin-top: 30px;
 }
 
 .ft-main {
