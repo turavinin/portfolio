@@ -211,14 +211,14 @@ strong {
   padding-top: 100px;
 }
 
-#projects > h2 {
+.projects-title {
   font-size: 3rem;
   font-weight: 600;
   padding-top: 10px;
   padding-left: 20px;
 }
 
-#projects > p {
+.projects-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 2;
@@ -813,13 +813,15 @@ strong {
     align-items: center;
     justify-content: center;
     padding: 20px 50px 20px 50px;
+    height: 1100px;
+    border-bottom: 1px solid black;
   }
 
   .project-mother-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: fit-content;
+    width: 1000px;
   }
 
   .container-projects {
@@ -827,7 +829,7 @@ strong {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 60vw;
+    width: fit-content;
     height: auto;
     
 
@@ -840,9 +842,58 @@ strong {
     width: 400px;
     background-attachment: initial; 
   }
+  
+  .projects-title {
+    font-size: 4rem;
+    font-weight: 800;
+  }
 
+  .projects-subtitle {
+    font-size: 1.5rem;
+  }
 
+.cont-project-1 > ul > li:nth-child(3) {
+  padding: 0;
+}
 
+.cont-project-1 > ul > li:nth-child(4) {
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.cont-project-2 > ul > li:nth-child(3) {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.cont-project-2 > ul > li:nth-child(4) {
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.cont-project-3 > ul > li:nth-child(3) {
+  padding-top: 17px;
+  padding-bottom: 0;
+}
+
+.cont-project-3 > ul > li:nth-child(4) {
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+.cont-project-4 > ul > li:nth-child(3) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.cont-project-4 > ul > li:nth-child(4) {
+  margin: 60px 0 0 0;
+  padding: 0;
+}
+
+i:hover {
+  color: #dc3545;
+}
 
 
 
