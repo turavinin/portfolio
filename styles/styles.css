@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0px;
 }
 
@@ -205,6 +205,10 @@ strong {
   width: 50vw;
   height: auto;
   margin: 20px 0;
+}
+
+#logo-javascript {
+  width: 60vw;
 }
 
 /* PORTFOLIO */
@@ -766,6 +770,16 @@ strong {
 
   .div-pictures > img {
     width: 200px;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  #logo-css {
+    margin-left: 10px;
+  }
+
+  #logo-javascript {
+    width: 220px;
     height: auto;
     margin: 20px 0;
   }
